@@ -1,0 +1,105 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter Notebook
+
+.ipynb_checkpoints/
+
+# Python packaging
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environment variables
+
+.env
+.env.*
+
+# IDEs
+
+.vscode/
+.idea/
+
+# Operating system
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+
+*.log
+
+# Large datasets
+
+data/*.csv
+data/*.zip
+data/*.json
+data/*.parquet
+
+# Machine learning artifacts
+
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Sentence Transformer / Hugging Face cache
+
+.cache/
+huggingface_cache/
+sentence_transformer_cache/
+
+# Generated embeddings
+
+*_embeddings.npy
+*_embeddings.npz
+*.npy
+*.npz
+
+# Temporary files
+
+*.tmp
+*.temp
+
+# Colab
+
+/content/
+/drive/
+
+# OS / editor temporary files
+
+*.swp
+*.swo
+*~
+
+# Local testing
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets
+
+*.pem
+*.key
+credentials.json
+secrets.json
